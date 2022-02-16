@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "musicmod:musical_strings"
+      "item": "minecraft:string"
     },
     {
       "item": "minecraft:book"
