@@ -7,6 +7,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Hand;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -63,6 +64,9 @@ public class DrumsNKeyPressedProcedure {
 							SoundCategory.BLOCKS, (float) 8, (float) 1, false);
 				}
 				world.addParticle(ParticleTypes.NOTE, x, (y + 2), z, 0.625, 3, 0);
+				if (entity instanceof LivingEntity) {
+					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
+				}
 			}
 		}
 	}
