@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "UP",
+    "keyBindingName": "Guitar - Strum - Up",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarStrumUpKeyPress"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Drums - Closed Hi-Hat",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "DrumsVKeyPressed"
+    }
+  }
+}

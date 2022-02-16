@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:guitar_pick"
+    },
+    "title": {
+      "translate": "advancements.rock_that_pick_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.rock_that_pick_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rock_that_pick_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:guitar_pick",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:free_guitar_no_strings_attached"
+}

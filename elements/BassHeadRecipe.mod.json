@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GuitarTuner"
+      },
+      {
+        "value": "CUSTOM:MusicalStrings"
+      },
+      {
+        "value": "CUSTOM:GuitarTuner"
+      },
+      {
+        "value": "CUSTOM:GuitarTuner"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "CUSTOM:GuitarTuner"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MusicalStrings"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BassHead"
+    },
+    "name": "bass_head_recipe",
+    "namespace": "mod"
+  }
+}

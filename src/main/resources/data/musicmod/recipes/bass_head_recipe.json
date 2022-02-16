@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "1": {
+      "item": "musicmod:musical_strings"
+    },
+    "2": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "3": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "4": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "5": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "7": {
+      "item": "musicmod:musical_strings"
+    }
+  },
+  "result": {
+    "item": "musicmod:bass_head",
+    "count": 1
+  }
+}

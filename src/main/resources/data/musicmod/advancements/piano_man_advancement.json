@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:piano"
+    },
+    "title": {
+      "translate": "advancements.piano_man_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.piano_man_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "piano_man_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:piano",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:keys_to_the_music_advancement"
+}

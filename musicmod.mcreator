@@ -1,0 +1,4571 @@
+{
+  "mod_elements": [
+    {
+      "name": "MusicalStrings",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_strings"
+    },
+    {
+      "name": "MusicalStringsRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_strings_recipe"
+    },
+    {
+      "name": "MusicalKeys",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_keys"
+    },
+    {
+      "name": "MusicalKeysRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_keys_recipe"
+    },
+    {
+      "name": "Music",
+      "type": "tab",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music"
+    },
+    {
+      "name": "Piano",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano"
+    },
+    {
+      "name": "PianoRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_recipe"
+    },
+    {
+      "name": "MusicC1OnKeyPressed",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_1_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicC1",
+      "type": "keybind",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_1"
+    },
+    {
+      "name": "PianoItemInHandTick",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicCSharp1",
+      "type": "keybind",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_sharp_1"
+    },
+    {
+      "name": "MusicDOnKeyPressed",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicD1",
+      "type": "keybind",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_1"
+    },
+    {
+      "name": "PianoOctaveOverlay",
+      "type": "overlay",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_octave_overlay"
+    },
+    {
+      "name": "MusicCSharp1OnKeyPressed",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_sharp_1_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PianoSwitchOctavesUpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_switch_octaves_up_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PianoSwitchOctavesDownOnKeyPressed",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_switch_octaves_down_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PianoSwitchOctavesUp",
+      "type": "keybind",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_switch_octaves_up"
+    },
+    {
+      "name": "PianoSwitchOctavesDown",
+      "type": "keybind",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_switch_octaves_down"
+    },
+    {
+      "name": "MusicDSharpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_sharp_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicDSharp1",
+      "type": "keybind",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_sharp_1"
+    },
+    {
+      "name": "MusicEOnKeyPressed",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_e_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicE1",
+      "type": "keybind",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_e_1"
+    },
+    {
+      "name": "MusicFOnKeyPressed",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_f_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicF1",
+      "type": "keybind",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_f_1"
+    },
+    {
+      "name": "MusicFSharpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_f_sharp_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicFSharp1",
+      "type": "keybind",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_f_sharp_1"
+    },
+    {
+      "name": "MusicGOnKeyPressed",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_g_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicG1",
+      "type": "keybind",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_g_1"
+    },
+    {
+      "name": "MusicGSharp1KeyPressed",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_g_sharp_1_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicGSharp1",
+      "type": "keybind",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_g_sharp_1"
+    },
+    {
+      "name": "MusicA1KeyPressed",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_a_1_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicA1",
+      "type": "keybind",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_a_1"
+    },
+    {
+      "name": "MusicASharp1KeyPressed",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_a_sharp_1_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicASharp1",
+      "type": "keybind",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_a_sharp_1"
+    },
+    {
+      "name": "MusicB1KeyPressed",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_b_1_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicB1",
+      "type": "keybind",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_b_1"
+    },
+    {
+      "name": "MusicC2KeyPressed",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_2_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicC2",
+      "type": "keybind",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_2"
+    },
+    {
+      "name": "MusicCSharp2KeyPressed",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_sharp_2_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicCSharp2",
+      "type": "keybind",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_c_sharp_2"
+    },
+    {
+      "name": "MusicD2KeyPressed",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_2_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicD2",
+      "type": "keybind",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_2"
+    },
+    {
+      "name": "MusicDSharp2KeyPressed",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_sharp_2_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicDSharp2",
+      "type": "keybind",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_d_sharp_2"
+    },
+    {
+      "name": "MusicE2KeyPressed",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_e_2_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicE2",
+      "type": "keybind",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_e_2"
+    },
+    {
+      "name": "Guitar",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar"
+    },
+    {
+      "name": "ChordCrafter",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chord_crafter"
+    },
+    {
+      "name": "CMajorChordSheet",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_major_chord_sheet"
+    },
+    {
+      "name": "DMajorChordSheet",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_major_chord_sheet"
+    },
+    {
+      "name": "EMajorChordSheet",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_major_chord_sheet"
+    },
+    {
+      "name": "FMajorChordSheet",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_major_chord_sheet"
+    },
+    {
+      "name": "GMajorChordSheet",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_major_chord_sheet"
+    },
+    {
+      "name": "AMajorChordSheet",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_major_chord_sheet"
+    },
+    {
+      "name": "BMajorChordSheet",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_major_chord_sheet"
+    },
+    {
+      "name": "CMinorChordSheet",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_minor_chord_sheet"
+    },
+    {
+      "name": "DMinorChordSheet",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_minor_chord_sheet"
+    },
+    {
+      "name": "EMinorChordSheet",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_minor_chord_sheet"
+    },
+    {
+      "name": "FMinorChordSheet",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_minor_chord_sheet"
+    },
+    {
+      "name": "GMinorChordSheet",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_minor_chord_sheet"
+    },
+    {
+      "name": "AMinorChordSheet",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_minor_chord_sheet"
+    },
+    {
+      "name": "BMinorChordSheet",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_minor_chord_sheet"
+    },
+    {
+      "name": "CMajor7ChordSheet",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_major_7_chord_sheet"
+    },
+    {
+      "name": "DMajor7ChordSheet",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_major_7_chord_sheet"
+    },
+    {
+      "name": "EMajor7ChordSheet",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_major_7_chord_sheet"
+    },
+    {
+      "name": "FMajor7ChordSheet",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_major_7_chord_sheet"
+    },
+    {
+      "name": "GMajor7ChordSheet",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_major_7_chord_sheet"
+    },
+    {
+      "name": "AMajor7ChordSheet",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_major_7_chord_sheet"
+    },
+    {
+      "name": "BMajor7ChordSheet",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_major_7_chord_sheet"
+    },
+    {
+      "name": "PianoOctaveOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_octave_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarChordOverlay",
+      "type": "overlay",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_chord_overlay"
+    },
+    {
+      "name": "GuitarChordOverlayDisplay",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_chord_overlay_display",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord1",
+      "type": "keybind",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_1"
+    },
+    {
+      "name": "GuitarStrumUp",
+      "type": "keybind",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_strum_up"
+    },
+    {
+      "name": "GuitarStrumUpKeyPress",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "guitar_strum_up_key_press",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarStrumDownKeyPress",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "guitar_strum_down_key_press",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarStrumDown",
+      "type": "keybind",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_strum_down"
+    },
+    {
+      "name": "GuitarSwitchChord",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord1OnKeyPressed",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_1_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord2",
+      "type": "keybind",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_2"
+    },
+    {
+      "name": "GuitarSwitchChord3",
+      "type": "keybind",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_3"
+    },
+    {
+      "name": "GuitarSwitchChord4",
+      "type": "keybind",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_4"
+    },
+    {
+      "name": "GuitarSwitchChord5",
+      "type": "keybind",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_5"
+    },
+    {
+      "name": "GuitarSwitchChord6",
+      "type": "keybind",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_6"
+    },
+    {
+      "name": "GuitarSwitchChord7",
+      "type": "keybind",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_7"
+    },
+    {
+      "name": "GuitarSwitchChord8",
+      "type": "keybind",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_8"
+    },
+    {
+      "name": "CSharpMajorChordSheet",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_sharp_major_chord_sheet"
+    },
+    {
+      "name": "DSharpMajorChordSheet",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_sharp_major_chord_sheet"
+    },
+    {
+      "name": "FSharpMajorChordSheet",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_sharp_major_chord_sheet"
+    },
+    {
+      "name": "GSharpMajorChordSheet",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_sharp_major_chord_sheet"
+    },
+    {
+      "name": "ASharpMajorChordSheet",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sharp_major_chord_sheet"
+    },
+    {
+      "name": "ChordCrafterRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chord_crafter_recipe"
+    },
+    {
+      "name": "GuitarSwitchChord9",
+      "type": "keybind",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_9"
+    },
+    {
+      "name": "CSharpMinorChordSheet",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_sharp_minor_chord_sheet"
+    },
+    {
+      "name": "DSharpMinorChordSheet",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_sharp_minor_chord_sheet"
+    },
+    {
+      "name": "FSharpMinorChordSheet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_sharp_minor_chord_sheet"
+    },
+    {
+      "name": "GSharpMinorChordSheet",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_sharp_minor_chord_sheet"
+    },
+    {
+      "name": "ASharpMinorChordSheet",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sharp_minor_chord_sheet"
+    },
+    {
+      "name": "CSharpMajor7ChordSheet",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_sharp_major_7_chord_sheet"
+    },
+    {
+      "name": "DMajorSharp7ChordSheet",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_major_sharp_7_chord_sheet"
+    },
+    {
+      "name": "FSharpMajor7ChordSheet",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_sharp_major_7_chord_sheet"
+    },
+    {
+      "name": "GSharpMajor7Chord",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_sharp_major_7_chord"
+    },
+    {
+      "name": "ASharpMajor7Chord",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sharp_major_7_chord"
+    },
+    {
+      "name": "GuitarSwitchChord2OnKeyPressed",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_2_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord3OnKeyPressed",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_3_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord4OnKeyPressed",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_4_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord5OnKeyPressed",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_5_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord6OnKeyPressed",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_6_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord7OnKeyPressed",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_7_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord8OnKeyPressed",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_8_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarSwitchChord9OnKeyPressed",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_switch_chord_9_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuitarPick",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_pick"
+    },
+    {
+      "name": "GuitarPickRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_pick_recipe"
+    },
+    {
+      "name": "PickOctaveOverlay",
+      "type": "overlay",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_octave_overlay"
+    },
+    {
+      "name": "PickOctaveOverlayDisplay",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_octave_overlay_display",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BassGuitar",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_guitar"
+    },
+    {
+      "name": "SetRootC",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_c",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootCSharp",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_c_sharp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootD",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_d",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootDSharp",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_d_sharp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootE",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_e",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootF",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_f",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootFSharp",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_f_sharp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootG",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_g",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootGSharp",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_g_sharp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootA",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_a",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootASharp",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_a_sharp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetRootB",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_root_b",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetChordTypeMajor",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_chord_type_major",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetChordTypeMinor",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_chord_type_minor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetChordType7",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_chord_type_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftChord",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_chord",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChordCrafterUI",
+      "type": "gui",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chord_crafter_ui"
+    },
+    {
+      "name": "GuitarBody",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_body"
+    },
+    {
+      "name": "GuitarNeck",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_neck"
+    },
+    {
+      "name": "GuitarHead",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_head"
+    },
+    {
+      "name": "GuitarTuner",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_tuner"
+    },
+    {
+      "name": "GuitarBodyRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_body_recipe"
+    },
+    {
+      "name": "GuitarNeckRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_neck_recipe"
+    },
+    {
+      "name": "GuitarTunerRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_tuner_recipe"
+    },
+    {
+      "name": "GuitarHeadRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_head_recipe"
+    },
+    {
+      "name": "BassBody",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_body"
+    },
+    {
+      "name": "BassHead",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_head"
+    },
+    {
+      "name": "BassNeck",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_neck"
+    },
+    {
+      "name": "BassBodyRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_body_recipe"
+    },
+    {
+      "name": "BassNeckRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_neck_recipe"
+    },
+    {
+      "name": "BassHeadRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bass_head_recipe"
+    },
+    {
+      "name": "LuthierStation",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luthier_station"
+    },
+    {
+      "name": "LuthierStationGUI",
+      "type": "gui",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luthier_station_gui"
+    },
+    {
+      "name": "CheckForLuthierCraftingRecipes",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_for_luthier_crafting_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book"
+    },
+    {
+      "name": "TheSoundOfMusicAchievement",
+      "type": "achievement",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sound_of_music_achievement"
+    },
+    {
+      "name": "ItAllBeginsWithSomeStrings",
+      "type": "achievement",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "it_all_begins_with_some_strings"
+    },
+    {
+      "name": "KeysToTheMusicAdvancement",
+      "type": "achievement",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keys_to_the_music_advancement"
+    },
+    {
+      "name": "PianoManAdvancement",
+      "type": "achievement",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piano_man_advancement"
+    },
+    {
+      "name": "DoYouWantToBeALuthierAdvancement",
+      "type": "achievement",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_you_want_to_be_a_luthier_advancement"
+    },
+    {
+      "name": "InventoryLuthierBlock",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_luthier_block"
+    },
+    {
+      "name": "InventoryLuthierBlockItemInHandTick",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_luthier_block_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeadingForAGuitar",
+      "type": "achievement",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heading_for_a_guitar"
+    },
+    {
+      "name": "NoNeedToFretAdvancement",
+      "type": "achievement",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_need_to_fret_advancement"
+    },
+    {
+      "name": "HollowAndEmpty",
+      "type": "achievement",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hollow_and_empty"
+    },
+    {
+      "name": "FreeGuitarNoStringsAttached",
+      "type": "achievement",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "free_guitar_no_strings_attached"
+    },
+    {
+      "name": "TotallyNotAWorseGuitar",
+      "type": "achievement",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totally_not_a_worse_guitar"
+    },
+    {
+      "name": "IsThatABassFret",
+      "type": "achievement",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_that_a_bass_fret"
+    },
+    {
+      "name": "HollowAndBassy",
+      "type": "achievement",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hollow_and_bassy"
+    },
+    {
+      "name": "SlapThatBass",
+      "type": "achievement",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slap_that_bass"
+    },
+    {
+      "name": "ChordCrafterAdvancement",
+      "type": "achievement",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chord_crafter_advancement"
+    },
+    {
+      "name": "Drumset",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumset"
+    },
+    {
+      "name": "ModGuideBook12",
+      "type": "gui",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_12"
+    },
+    {
+      "name": "ModGuideBook34",
+      "type": "gui",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_34"
+    },
+    {
+      "name": "ModGuideBook56",
+      "type": "gui",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_56"
+    },
+    {
+      "name": "MG12NextPage",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_12_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG34PrevPage",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_34_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG34NextPage",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_34_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuthierStationRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luthier_station_recipe"
+    },
+    {
+      "name": "ModGuideBook78",
+      "type": "gui",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_78"
+    },
+    {
+      "name": "MG56PrevPage",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_56_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG56NextPage",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_56_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook910",
+      "type": "gui",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_910"
+    },
+    {
+      "name": "MG78PrevPage",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_78_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG78NextPage",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_78_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook1112",
+      "type": "gui",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_1112"
+    },
+    {
+      "name": "MG910PrevPage",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_910_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG910NextPage",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_910_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook1314",
+      "type": "gui",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_1314"
+    },
+    {
+      "name": "MG1112PrevPage",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1112_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG1112NextPage",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1112_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cymbal",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cymbal"
+    },
+    {
+      "name": "CymbalRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cymbal_recipe"
+    },
+    {
+      "name": "BaDumTssssAdvancement",
+      "type": "achievement",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ba_dum_tssss_advancement"
+    },
+    {
+      "name": "Drum",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drum"
+    },
+    {
+      "name": "DrumRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drum_recipe"
+    },
+    {
+      "name": "SnareAJokeWithYouAdvancement",
+      "type": "achievement",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snare_a_joke_with_you_advancement"
+    },
+    {
+      "name": "DrumsetRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumset_recipe"
+    },
+    {
+      "name": "ThereWillBeRepercussionsAdvancement",
+      "type": "achievement",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "there_will_be_repercussions_advancement"
+    },
+    {
+      "name": "DrumsZKeyPressed",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_z_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsXKeyPressed",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_x_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsCKeyPressed",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_c_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsVKeyPressed",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_v_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsBKeyPressed",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_b_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsNKeyPressed",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_n_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsMKeyPressed",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_m_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsDecKeyPressed",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_dec_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsPerKeyPressed",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drums_per_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsZKey",
+      "type": "keybind",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_z_key"
+    },
+    {
+      "name": "DrumsXKey",
+      "type": "keybind",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_x_key"
+    },
+    {
+      "name": "DrumsCKey",
+      "type": "keybind",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_c_key"
+    },
+    {
+      "name": "DrumsVKey",
+      "type": "keybind",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_v_key"
+    },
+    {
+      "name": "DrumsBKey",
+      "type": "keybind",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_b_key"
+    },
+    {
+      "name": "DrumsNKey",
+      "type": "keybind",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_n_key"
+    },
+    {
+      "name": "DrumsMKey",
+      "type": "keybind",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_m_key"
+    },
+    {
+      "name": "DrumsPerKey",
+      "type": "keybind",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_per_key"
+    },
+    {
+      "name": "DrumsDecKey",
+      "type": "keybind",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drums_dec_key"
+    },
+    {
+      "name": "DrumsetItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumset_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook1516",
+      "type": "gui",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_1516"
+    },
+    {
+      "name": "MG1314PrevPage",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1314_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG1314NextPage",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1314_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook1718",
+      "type": "gui",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_1718"
+    },
+    {
+      "name": "MG1516PrevPage",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1516_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG1516NextPage",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1516_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrumsetPlayingOverlay",
+      "type": "overlay",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumset_playing_overlay"
+    },
+    {
+      "name": "DrumsetPlayingOverlayDisplay",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumset_playing_overlay_display",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook1920",
+      "type": "gui",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_1920"
+    },
+    {
+      "name": "MG1718PrevPage",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1718_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG1718NextPage",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1718_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBook2122",
+      "type": "gui",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_2122"
+    },
+    {
+      "name": "MG1920PrevPage",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1920_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG1920NextPage",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_1920_next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MG2122PrevPage",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mg_2122_prev_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModGuideBookPlaySound",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_guide_book_play_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RockThatPickAdvancement",
+      "type": "achievement",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_that_pick_advancement"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "octave",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "2.0"
+    },
+    {
+      "name": "guitarchord_num",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "guitarchord_name",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "C Major"
+    },
+    {
+      "name": "slotcheck",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "rootNote",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "chordType",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "guitar_fret1",
+      "files": [
+        "guitar_fret1_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E4 string"
+    },
+    {
+      "name": "guitar_fret2",
+      "files": [
+        "guitar_fret2_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B3 string"
+    },
+    {
+      "name": "guitar_fret3",
+      "files": [
+        "guitar_fret3_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G3 string"
+    },
+    {
+      "name": "guitar_fret4",
+      "files": [
+        "guitar_fret4_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D3 string"
+    },
+    {
+      "name": "guitar_fret5",
+      "files": [
+        "guitar_fret5_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A2 string"
+    },
+    {
+      "name": "guitar_fret6",
+      "files": [
+        "guitar_fret6_shorter"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E2 string"
+    },
+    {
+      "name": "guitar_cmajor_down",
+      "files": [
+        "cmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Major chord"
+    },
+    {
+      "name": "guitar_cmajor_up",
+      "files": [
+        "cmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Major chord"
+    },
+    {
+      "name": "guitar_csharpmajor_down",
+      "files": [
+        "csharpmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Major chord"
+    },
+    {
+      "name": "guitar_csharpmajor_up",
+      "files": [
+        "csharpmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Major chord"
+    },
+    {
+      "name": "guitar_dmajor_down",
+      "files": [
+        "dmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Major chord"
+    },
+    {
+      "name": "guitar_dmajor_up",
+      "files": [
+        "dmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Major chord"
+    },
+    {
+      "name": "guitar_dsharpmajor_down",
+      "files": [
+        "dsharpmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Major chord"
+    },
+    {
+      "name": "guitar_dsharpmajor_up",
+      "files": [
+        "dsharpmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Major chord"
+    },
+    {
+      "name": "guitar_emajor_down",
+      "files": [
+        "emajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Major chord"
+    },
+    {
+      "name": "guitar_emajor_up",
+      "files": [
+        "emajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Major chord"
+    },
+    {
+      "name": "guitar_fmajor_down",
+      "files": [
+        "fmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Major chord"
+    },
+    {
+      "name": "guitar_fmajor_up",
+      "files": [
+        "fmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Major chord"
+    },
+    {
+      "name": "guitar_fsharpmajor_down",
+      "files": [
+        "fsharpmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Major chord"
+    },
+    {
+      "name": "guitar_fsharpmajor_up",
+      "files": [
+        "fsharpmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Major chord"
+    },
+    {
+      "name": "guitar_gmajor_down",
+      "files": [
+        "gmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Major chord"
+    },
+    {
+      "name": "guitar_gmajor_up",
+      "files": [
+        "gmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Major chord"
+    },
+    {
+      "name": "guitar_gsharpmajor_down",
+      "files": [
+        "gsharpmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G# Major chord"
+    },
+    {
+      "name": "guitar_gsharpmajor_up",
+      "files": [
+        "gsharpmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G# Major chord"
+    },
+    {
+      "name": "guitar_amajor_down",
+      "files": [
+        "amajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Major chord"
+    },
+    {
+      "name": "guitar_amajor_up",
+      "files": [
+        "amajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Major chord"
+    },
+    {
+      "name": "guitar_asharpmajor_up",
+      "files": [
+        "asharpmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Major chord"
+    },
+    {
+      "name": "guitar_bmajor_down",
+      "files": [
+        "bmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Major chord"
+    },
+    {
+      "name": "guitar_bmajor_up",
+      "files": [
+        "bmajor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Major chord"
+    },
+    {
+      "name": "guitar_cminor_down",
+      "files": [
+        "cminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Minor chord"
+    },
+    {
+      "name": "guitar_cminor_up",
+      "files": [
+        "cminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Minor chord"
+    },
+    {
+      "name": "guitar_csharpminor_down",
+      "files": [
+        "csharpminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Minor chord"
+    },
+    {
+      "name": "guitar_csharpminor_up",
+      "files": [
+        "csharpminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Minor chord"
+    },
+    {
+      "name": "guitar_dminor_down",
+      "files": [
+        "dminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Minor chord"
+    },
+    {
+      "name": "guitar_dminor_up",
+      "files": [
+        "dminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Minor chord"
+    },
+    {
+      "name": "guitar_dsharpminor_down",
+      "files": [
+        "dsharpminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Minor chord"
+    },
+    {
+      "name": "guitar_dsharpminor_up",
+      "files": [
+        "dsharpminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Minor chord"
+    },
+    {
+      "name": "guitar_eminor_down",
+      "files": [
+        "eminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Minor chord"
+    },
+    {
+      "name": "guitar_eminor_up",
+      "files": [
+        "eminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Minor chord"
+    },
+    {
+      "name": "guitar_fminor_down",
+      "files": [
+        "fminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Minor chord"
+    },
+    {
+      "name": "guitar_fminor_up",
+      "files": [
+        "fminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Minor chord"
+    },
+    {
+      "name": "guitar_fsharpminor_down",
+      "files": [
+        "fsharpminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Minor chord"
+    },
+    {
+      "name": "guitar_fsharpminor_up",
+      "files": [
+        "fsharpminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Minor chord"
+    },
+    {
+      "name": "guitar_gminor_down",
+      "files": [
+        "gminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Minor chord"
+    },
+    {
+      "name": "guitar_gminor_up",
+      "files": [
+        "gminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Minor chord"
+    },
+    {
+      "name": "guitar_gsharpminor_down",
+      "files": [
+        "gsharpminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G# Minor chord"
+    },
+    {
+      "name": "guitar_gsharpminor_up",
+      "files": [
+        "gsharpminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G# Minor chord"
+    },
+    {
+      "name": "guitar_aminor_down",
+      "files": [
+        "aminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Minor chord"
+    },
+    {
+      "name": "guitar_aminor_up",
+      "files": [
+        "aminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Minor chord"
+    },
+    {
+      "name": "guitar_asharpmajor_down",
+      "files": [
+        "asharpmajor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Major chord"
+    },
+    {
+      "name": "guitar_asharpminor_down",
+      "files": [
+        "asharpminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Minor chord"
+    },
+    {
+      "name": "guitar_asharpminor_up",
+      "files": [
+        "asharpminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Minor chord"
+    },
+    {
+      "name": "guitar_bminor_down",
+      "files": [
+        "bminor_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Minor chord"
+    },
+    {
+      "name": "guitar_bminor_up",
+      "files": [
+        "bminor_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Minor chord"
+    },
+    {
+      "name": "guitar_cmajor7_down",
+      "files": [
+        "cmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Major 7 chord"
+    },
+    {
+      "name": "guitar_cmajor7_up",
+      "files": [
+        "cmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C Major 7 chord"
+    },
+    {
+      "name": "guitar_csharpmajor7_down",
+      "files": [
+        "csharpmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Major 7 chord"
+    },
+    {
+      "name": "guitar_csharpmajor7_up",
+      "files": [
+        "csharpmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar C# Major 7 chord"
+    },
+    {
+      "name": "guitar_dmajor7_down",
+      "files": [
+        "dmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Major 7 chord"
+    },
+    {
+      "name": "guitar_dmajor7_up",
+      "files": [
+        "dmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D Major 7 chord"
+    },
+    {
+      "name": "guitar_dsharpmajor7_down",
+      "files": [
+        "dsharpmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Major 7 chord"
+    },
+    {
+      "name": "guitar_dsharpmajor7_up",
+      "files": [
+        "dsharpmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar D# Major 7 chord"
+    },
+    {
+      "name": "guitar_emajor7_down",
+      "files": [
+        "emajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Major 7 chord"
+    },
+    {
+      "name": "guitar_emajor7_up",
+      "files": [
+        "emajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar E Major 7 chord"
+    },
+    {
+      "name": "guitar_fmajor7_down",
+      "files": [
+        "fmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Major 7 chord"
+    },
+    {
+      "name": "guitar_fmajor7_up",
+      "files": [
+        "fmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F Major 7 chord"
+    },
+    {
+      "name": "guitar_fsharpmajor7_down",
+      "files": [
+        "fsharpmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Major 7 chord"
+    },
+    {
+      "name": "guitar_fsharpmajor7_up",
+      "files": [
+        "fsharpmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar F# Major 7 chord"
+    },
+    {
+      "name": "guitar_gmajor7_down",
+      "files": [
+        "gmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Major 7 chord"
+    },
+    {
+      "name": "guitar_gmajor7_up",
+      "files": [
+        "gmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G Major 7 chord"
+    },
+    {
+      "name": "guitar_gsharpmajor7_down",
+      "files": [
+        "gsharpmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar G# Major 7 chord"
+    },
+    {
+      "name": "guitar_gsharpmajor7_up",
+      "files": [
+        "gsharpmajor7_up"
+      ],
+      "category": "neutral",
+      "subtitle": "Guitar G# Major 7 chord"
+    },
+    {
+      "name": "guitar_amajor7_down",
+      "files": [
+        "amajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Major 7 chord"
+    },
+    {
+      "name": "guitar_amajor7_up",
+      "files": [
+        "amajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A Major 7 chord"
+    },
+    {
+      "name": "guitar_asharpmajor7_down",
+      "files": [
+        "asharpmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Major 7 chord"
+    },
+    {
+      "name": "guitar_asharpmajor7_up",
+      "files": [
+        "asharpmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar A# Major 7 chord"
+    },
+    {
+      "name": "guitar_bmajor7_down",
+      "files": [
+        "bmajor7_down"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Major 7 chord"
+    },
+    {
+      "name": "guitar_bmajor7_up",
+      "files": [
+        "bmajor7_up"
+      ],
+      "category": "block",
+      "subtitle": "Guitar B Major 7 chord"
+    },
+    {
+      "name": "guitar_fretnoise",
+      "files": [
+        "guitar_fretnoise"
+      ],
+      "category": "block",
+      "subtitle": "Guitar fret noise"
+    },
+    {
+      "name": "piano_lower",
+      "files": [
+        "piano_lower"
+      ],
+      "category": "block",
+      "subtitle": "Piano sounds"
+    },
+    {
+      "name": "piano_mid",
+      "files": [
+        "piano_mid"
+      ],
+      "category": "block",
+      "subtitle": "Piano sounds"
+    },
+    {
+      "name": "piano_higher",
+      "files": [
+        "piano_higher"
+      ],
+      "category": "block",
+      "subtitle": "Piano sounds"
+    },
+    {
+      "name": "piano_highest",
+      "files": [
+        "piano_highest"
+      ],
+      "category": "block",
+      "subtitle": "Piano sounds"
+    },
+    {
+      "name": "guitar_lower",
+      "files": [
+        "guitar_lower"
+      ],
+      "category": "block",
+      "subtitle": "Guitar sounds"
+    },
+    {
+      "name": "guitar_mid",
+      "files": [
+        "guitar_mid"
+      ],
+      "category": "block",
+      "subtitle": "Guitar sounds"
+    },
+    {
+      "name": "guitar_higher",
+      "files": [
+        "guitar_higher"
+      ],
+      "category": "block",
+      "subtitle": "Guitar sounds"
+    },
+    {
+      "name": "guitar_highest",
+      "files": [
+        "guitar_highest"
+      ],
+      "category": "block",
+      "subtitle": "Guitar sounds"
+    },
+    {
+      "name": "bass_lower",
+      "files": [
+        "bass_lower"
+      ],
+      "category": "block",
+      "subtitle": "Bass guitar sounds"
+    },
+    {
+      "name": "bass_mid",
+      "files": [
+        "bass_mid"
+      ],
+      "category": "block",
+      "subtitle": "Bass guitar sounds"
+    },
+    {
+      "name": "bass_higher",
+      "files": [
+        "bass_higher"
+      ],
+      "category": "block",
+      "subtitle": "Bass guitar sounds"
+    },
+    {
+      "name": "bass_highest",
+      "files": [
+        "bass_highest"
+      ],
+      "category": "block",
+      "subtitle": "Bass guitar sounds"
+    },
+    {
+      "name": "bassdrum",
+      "files": [
+        "bassdrum"
+      ],
+      "category": "block",
+      "subtitle": "Bass drum"
+    },
+    {
+      "name": "closedhihat",
+      "files": [
+        "closedhihat"
+      ],
+      "category": "block",
+      "subtitle": "Closed hi-hat"
+    },
+    {
+      "name": "floortom",
+      "files": [
+        "floortom"
+      ],
+      "category": "block",
+      "subtitle": "Floor tom"
+    },
+    {
+      "name": "openhihat",
+      "files": [
+        "openhihat"
+      ],
+      "category": "block",
+      "subtitle": "Open hi-hat"
+    },
+    {
+      "name": "ride",
+      "files": [
+        "ride"
+      ],
+      "category": "block",
+      "subtitle": "Ride cymbal"
+    },
+    {
+      "name": "snare",
+      "files": [
+        "snare"
+      ],
+      "category": "block",
+      "subtitle": "Snare drum"
+    },
+    {
+      "name": "snarecrossstick",
+      "files": [
+        "snarecrossstick"
+      ],
+      "category": "block",
+      "subtitle": "Snare (cross-stick)"
+    },
+    {
+      "name": "tomtom",
+      "files": [
+        "tomtom"
+      ],
+      "category": "block",
+      "subtitle": "Tom-tom"
+    },
+    {
+      "name": "hihat_kick",
+      "files": [
+        "hihat_kick"
+      ],
+      "category": "block",
+      "subtitle": "Hi-hat \u0026 kick"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "key.musicmod.drums_b_key": "Drums - Hi-Hat + Kick",
+      "item.musicmod.bass_body": "Bass Guitar Body",
+      "advancements.hollow_and_empty.title": "Hollow and Empty",
+      "subtitles.guitar_fminor_down": "Guitar F Minor chord",
+      "subtitles.guitar_gmajor_up": "Guitar G Major chord",
+      "subtitles.guitar_csharpmajor_down": "Guitar C# Major chord",
+      "subtitles.guitar_amajor7_up": "Guitar A Major 7 chord",
+      "subtitles.guitar_gmajor_down": "Guitar G Major chord",
+      "item.musicmod.inventory_luthier_block": "Inventory Luthier Block",
+      "subtitles.guitar_dsharpmajor7_up": "Guitar D# Major 7 chord",
+      "item.musicmod.g_major_7_chord_sheet": "G Major 7 Chord Sheet",
+      "subtitles.guitar_fsharpmajor_up": "Guitar F# Major chord",
+      "subtitles.guitar_gsharpmajor_up": "Guitar G# Major chord",
+      "subtitles.guitar_asharpminor_up": "Guitar A# Minor chord",
+      "subtitles.guitar_gminor_down": "Guitar G Minor chord",
+      "advancements.heading_for_a_guitar.title": "Heading for a Guitar",
+      "advancements.there_will_be_repercussions_advancement.descr": "Craft yourself a Drumset from the parts you made.",
+      "subtitles.floortom": "Floor tom",
+      "key.musicmod.music_c_2": "Music - C 2",
+      "block.musicmod.chord_crafter": "Chord Crafter",
+      "subtitles.guitar_csharpminor_down": "Guitar C# Minor chord",
+      "key.musicmod.music_c_1": "Music - C 1",
+      "key.musicmod.drums_m_key": "Drums - Floor Tom",
+      "subtitles.guitar_dmajor_up": "Guitar D Major chord",
+      "key.musicmod.piano_switch_octaves_up": "Piano - Switch Octaves Up",
+      "item.musicmod.g_sharp_major_chord_sheet": "G# Major Chord Sheet",
+      "item.musicmod.g_sharp_minor_chord_sheet": "G# Minor Chord Sheet",
+      "subtitles.piano_highest": "Piano sounds",
+      "subtitles.guitar_fminor_up": "Guitar F Minor chord",
+      "subtitles.piano_higher": "Piano sounds",
+      "item.musicmod.guitar_neck": "Guitar Fretboard",
+      "subtitles.guitar_emajor_down": "Guitar E Major chord",
+      "subtitles.bass_highest": "Bass guitar sounds",
+      "subtitles.guitar_dsharpminor_down": "Guitar D# Minor chord",
+      "item.musicmod.musical_strings": "Musical Strings",
+      "subtitles.bassdrum": "Bass drum",
+      "item.musicmod.d_major_sharp_7_chord_sheet": "D# Major 7 Chord Sheet",
+      "itemGroup.tabmusic": "Music",
+      "item.musicmod.drum": "Drumset Drum",
+      "subtitles.guitar_dsharpmajor_down": "Guitar D# Major chord",
+      "block.musicmod.luthier_station": "Luthier\u0027s Station",
+      "advancements.no_need_to_fret_advancement.descr": "Craft a Guitar Fretboard.",
+      "subtitles.guitar_amajor_up": "Guitar A Major chord",
+      "subtitles.bass_mid": "Bass guitar sounds",
+      "item.musicmod.f_sharp_major_7_chord_sheet": "F# Major 7 Chord Sheet",
+      "item.musicmod.guitar_tuner": "Guitar Tuner",
+      "item.musicmod.piano": "Piano",
+      "subtitles.guitar_cminor_up": "Guitar C Minor chord",
+      "key.musicmod.music_b_1": "Music - B 1",
+      "item.musicmod.guitar_pick": "Guitar Pick",
+      "subtitles.guitar_eminor_down": "Guitar E Minor chord",
+      "advancements.is_that_a_bass_fret.title": "Is That a Bass Fret?",
+      "item.musicmod.bass_guitar": "Bass Guitar",
+      "subtitles.guitar_dmajor7_down": "Guitar D Major 7 chord",
+      "item.musicmod.b_major_7_chord_sheet": "B Major 7 Chord Sheet",
+      "subtitles.guitar_gminor_up": "Guitar G Minor chord",
+      "subtitles.guitar_dmajor7_up": "Guitar D Major 7 chord",
+      "item.musicmod.d_major_7_chord_sheet": "D Major 7 Chord Sheet",
+      "subtitles.achievement_get": "Advancement made!",
+      "advancements.is_that_a_bass_fret.descr": "Craft a Bass Guitar Fretboard.",
+      "subtitles.guitar_cminor_down": "Guitar C Minor chord",
+      "advancements.the_sound_of_music_achievement.descr": "Craft the introductory book.",
+      "subtitles.guitar_emajor7_up": "Guitar E Major 7 chord",
+      "subtitles.guitar_asharpmajor7_down": "Guitar A# Major 7 chord",
+      "key.musicmod.drums_n_key": "Drums - Open Hi-Hat",
+      "advancements.rock_that_pick_advancement.title": "Rock That Pick!",
+      "item.musicmod.drumset": "Drumset",
+      "item.musicmod.d_sharp_minor_chord_sheet": "D# Minor Chord Sheet",
+      "subtitles.guitar_gsharpmajor7_down": "Guitar G# Major 7 chord",
+      "subtitles.guitar_dsharpmajor7_down": "Guitar D# Major 7 chord",
+      "subtitles.guitar_asharpmajor_up": "Guitar A# Major chord",
+      "key.musicmod.music_a_1": "Music - A 1",
+      "subtitles.guitar_fsharpminor_up": "Guitar F# Minor chord",
+      "subtitles.closedhihat": "Closed hi-hat",
+      "subtitles.bass_lower": "Bass guitar sounds",
+      "subtitles.guitar_dsharpmajor_up": "Guitar D# Major chord",
+      "key.musicmod.music_g_sharp_1": "Music - G# 1",
+      "item.musicmod.c_major_7_chord_sheet": "C Major 7 Chord Sheet",
+      "advancements.it_all_begins_with_some_strings.descr": "Craft some Musical Strings.",
+      "advancements.snare_a_joke_with_you_advancement.descr": "Craft a Drumset Drum.",
+      "subtitles.guitar_mid": "Guitar sounds",
+      "subtitles.guitar_gsharpmajor_down": "Guitar G# Major chord",
+      "subtitles.guitar_fmajor_up": "Guitar F Major chord",
+      "item.musicmod.b_minor_chord_sheet": "B Minor Chord Sheet",
+      "subtitles.guitar_dminor_up": "Guitar D Minor chord",
+      "advancements.ba_dum_tssss_advancement.descr": "Craft a Drumset Cymbal.",
+      "item.musicmod.e_major_7_chord_sheet": "E Major 7 Chord Sheet",
+      "subtitles.guitar_lower": "Guitar sounds",
+      "item.musicmod.mod_guide_book": "A Guide to The Sound of Music",
+      "subtitles.guitar_fmajor7_down": "Guitar F Major 7 chord",
+      "item.musicmod.d_sharp_major_chord_sheet": "D# Major Chord Sheet",
+      "advancements.do_you_want_to_be_a_luthier_advancement.title": "Do You Want to be a Luthier?",
+      "key.musicmod.music_a_sharp_1": "Music - A# 1",
+      "subtitles.bass_higher": "Bass guitar sounds",
+      "advancements.keys_to_the_music_advancement.title": "Keys to the Music",
+      "subtitles.openhihat": "Open hi-hat",
+      "subtitles.piano_mid": "Piano sounds",
+      "key.musicmod.piano_switch_octaves_down": "Piano - Switch Octaves Down",
+      "subtitles.guitar_dminor_down": "Guitar D Minor chord",
+      "item.musicmod.a_sharp_major_7_chord": "A# Major 7 Chord Sheet",
+      "key.musicmod.music_d_sharp_2": "Piano - D# 2",
+      "key.musicmod.music_d_sharp_1": "Music - D# 1",
+      "subtitles.guitar_highest": "Guitar sounds",
+      "key.musicmod.drums_x_key": "Drums - Snare (cross-stick)",
+      "advancements.chord_crafter_advancement.descr": "Craft a Chord Crafter.",
+      "subtitles.guitar_bmajor7_down": "Guitar B Major 7 chord",
+      "advancements.slap_that_bass.title": "Slap That Bass!",
+      "key.musicmod.guitar_strum_down": "Guitar - Strum - Down",
+      "item.musicmod.f_major_7_chord_sheet": "F Major 7 Chord Sheet",
+      "subtitles.guitar_aminor_up": "Guitar A Minor chord",
+      "subtitles.guitar_fret2": "Guitar B3 string",
+      "advancements.totally_not_a_worse_guitar.title": "Totally Not a Worse Guitar",
+      "subtitles.guitar_fret1": "Guitar E4 string",
+      "subtitles.guitar_fret4": "Guitar D3 string",
+      "subtitles.guitar_fret3": "Guitar G3 string",
+      "subtitles.guitar_fret6": "Guitar E2 string",
+      "subtitles.guitar_fret5": "Guitar A2 string",
+      "advancements.hollow_and_bassy.descr": "Craft a Bass Guitar Body.",
+      "advancements.piano_man_advancement.title": "Piano Man",
+      "subtitles.guitar_cmajor_up": "Guitar C Major chord",
+      "subtitles.guitar_fretnoise": "Guitar fret noise",
+      "item.musicmod.b_major_chord_sheet": "B Major Chord Sheet",
+      "subtitles.guitar_fmajor_down": "Guitar F Major chord",
+      "advancements.it_all_begins_with_some_strings.title": "It All Begins with Some Strings",
+      "subtitles.snarecrossstick": "Snare (cross-stick)",
+      "key.musicmod.drums_v_key": "Drums - Closed Hi-Hat",
+      "item.musicmod.d_minor_chord_sheet": "D Minor Chord Sheet",
+      "subtitles.guitar_eminor_up": "Guitar E Minor chord",
+      "item.musicmod.f_sharp_minor_chord_sheet": "F# Minor Chord Sheet",
+      "subtitles.guitar_fsharpmajor_down": "Guitar F# Major chord",
+      "subtitles.guitar_gmajor7_up": "Guitar G Major 7 chord",
+      "subtitles.snare": "Snare drum",
+      "item.musicmod.d_major_chord_sheet": "D Major Chord Sheet",
+      "subtitles.hihat_kick": "Hi-hat \u0026 kick",
+      "subtitles.guitar_fsharpmajor7_down": "Guitar F# Major 7 chord",
+      "subtitles.guitar_gsharpmajor7_up": "Guitar G# Major 7 chord",
+      "subtitles.guitar_csharpmajor7_down": "Guitar C# Major 7 chord",
+      "item.musicmod.f_major_chord_sheet": "F Major Chord Sheet",
+      "item.musicmod.a_sharp_minor_chord_sheet": "A# Minor Chord Sheet",
+      "item.musicmod.musical_keys": "Musical Keys",
+      "subtitles.guitar_higher": "Guitar sounds",
+      "item.musicmod.f_minor_chord_sheet": "F Minor Chord Sheet",
+      "advancements.slap_that_bass.descr": "Craft yourself a Bass Guitar from the parts you made.",
+      "item.musicmod.f_sharp_major_chord_sheet": "F# Major Chord Sheet",
+      "subtitles.guitar_dsharpminor_up": "Guitar D# Minor chord",
+      "advancements.piano_man_advancement.descr": "Craft yourself a Piano.",
+      "item.musicmod.e_minor_chord_sheet": "E Minor Chord Sheet",
+      "item.musicmod.e_major_chord_sheet": "E Major Chord Sheet",
+      "item.musicmod.a_sharp_major_chord_sheet": "A# Major Chord Sheet",
+      "subtitles.guitar_amajor_down": "Guitar A Major chord",
+      "key.musicmod.drums_dec_key": "Drums - Ride Cymbal",
+      "subtitles.guitar_csharpmajor_up": "Guitar C# Major chord",
+      "key.musicmod.music_g_1": "Music - G 1",
+      "subtitles.guitar_bminor_up": "Guitar B Minor chord",
+      "item.musicmod.bass_neck": "Bass Guitar Fretboard",
+      "item.musicmod.guitar": "Guitar",
+      "item.musicmod.c_sharp_major_7_chord_sheet": "C# Major 7 Chord Sheet",
+      "subtitles.guitar_fsharpminor_down": "Guitar F# Minor chord",
+      "item.musicmod.a_major_chord_sheet": "A Major Chord Sheet",
+      "subtitles.guitar_bmajor_down": "Guitar B Major chord",
+      "subtitles.guitar_asharpminor_down": "Guitar A# Minor chord",
+      "advancements.there_will_be_repercussions_advancement.title": "There Will Be Repercussions",
+      "item.musicmod.c_minor_chord_sheet": "C Minor Chord Sheet",
+      "advancements.heading_for_a_guitar.descr": "Craft a Guitar Head.",
+      "item.musicmod.a_major_7_chord_sheet": "A Major 7 Chord Sheet",
+      "item.musicmod.c_major_chord_sheet": "C Major Chord Sheet",
+      "item.musicmod.a_minor_chord_sheet": "A Minor Chord Sheet",
+      "subtitles.guitar_bmajor7_up": "Guitar B Major 7 chord",
+      "subtitles.guitar_asharpmajor7_up": "Guitar A# Major 7 chord",
+      "advancements.free_guitar_no_strings_attached.descr": "Craft yourself a Guitar from the parts you made.",
+      "key.musicmod.music_f_sharp_1": "Music - F# 1",
+      "key.musicmod.music_f_1": "Music - F 1",
+      "key.musicmod.guitar_strum_up": "Guitar - Strum - Up",
+      "item.musicmod.c_sharp_minor_chord_sheet": "C# Minor Chord Sheet",
+      "subtitles.guitar_emajor_up": "Guitar E Major chord",
+      "subtitles.guitar_csharpmajor7_up": "Guitar C# Major 7 chord",
+      "subtitles.guitar_cmajor_down": "Guitar C Major chord",
+      "subtitles.guitar_bminor_down": "Guitar B Minor chord",
+      "advancements.chord_crafter_advancement.title": "Striking a Chord",
+      "key.musicmod.drums_c_key": "Drums - Snare Drum",
+      "subtitles.guitar_amajor7_down": "Guitar A Major 7 chord",
+      "item.musicmod.c_sharp_major_chord_sheet": "C# Major Chord Sheet",
+      "subtitles.guitar_dmajor_down": "Guitar D Major chord",
+      "item.musicmod.g_sharp_major_7_chord": "G# Major 7 Chord Sheet",
+      "key.musicmod.music_c_sharp_2": "Piano - C# 2",
+      "key.musicmod.music_c_sharp_1": "Music - C# 1",
+      "advancements.free_guitar_no_strings_attached.title": "Free Guitar No Strings Attached",
+      "advancements.hollow_and_bassy.title": "Hollow and Bassy",
+      "advancements.no_need_to_fret_advancement.title": "No Need to Fret",
+      "subtitles.guitar_asharpmajor_down": "Guitar A# Major chord",
+      "subtitles.guitar_csharpminor_up": "Guitar C# Minor chord",
+      "subtitles.guitar_bmajor_up": "Guitar B Major chord",
+      "key.musicmod.music_e_1": "Music - E 1",
+      "subtitles.guitar_gsharpminor_up": "Guitar G# Minor chord",
+      "subtitles.ride": "Ride cymbal",
+      "advancements.ba_dum_tssss_advancement.title": "Ba-dum-tsss!",
+      "key.musicmod.music_e_2": "Piano - E 2",
+      "subtitles.guitar_gmajor7_down": "Guitar G Major 7 chord",
+      "advancements.hollow_and_empty.descr": "Craft a Guitar Body.",
+      "subtitles.guitar_fmajor7_up": "Guitar F Major 7 chord",
+      "item.musicmod.bass_head": "Bass Guitar Head",
+      "advancements.keys_to_the_music_advancement.descr": "Craft some Musical Keys.",
+      "subtitles.guitar_cmajor7_up": "Guitar C Major 7 chord",
+      "advancements.totally_not_a_worse_guitar.descr": "Craft a Bass Guitar Head.",
+      "item.musicmod.guitar_head": "Guitar Head",
+      "item.musicmod.g_minor_chord_sheet": "G Minor Chord Sheet",
+      "item.musicmod.g_major_chord_sheet": "G Major Chord Sheet",
+      "item.musicmod.cymbal": "Drumset Cymbal",
+      "subtitles.guitar_emajor7_down": "Guitar E Major 7 chord",
+      "key.musicmod.guitar_switch_chord_9": "Guitar - Switch Chord - Slot 9",
+      "key.musicmod.guitar_switch_chord_8": "Guitar - Switch Chord - Slot 8",
+      "key.musicmod.guitar_switch_chord_7": "Guitar - Switch Chord - Slot 7",
+      "key.musicmod.guitar_switch_chord_6": "Guitar - Switch Chord - Slot 6",
+      "advancements.the_sound_of_music_achievement.title": "The Sound of Music",
+      "key.musicmod.guitar_switch_chord_5": "Guitar - Switch Chord - Slot 5",
+      "subtitles.guitar_gsharpminor_down": "Guitar G# Minor chord",
+      "key.musicmod.guitar_switch_chord_4": "Guitar - Switch Chord - Slot 4",
+      "subtitles.tomtom": "Tom-tom",
+      "key.musicmod.guitar_switch_chord_3": "Guitar - Switch Chord - Slot 3",
+      "key.musicmod.drums_per_key": "Drums - Tom-Tom",
+      "key.musicmod.guitar_switch_chord_2": "Guitar - Switch Chord - Slot 2",
+      "advancements.do_you_want_to_be_a_luthier_advancement.descr": "§eC\u0027mon, let\u0027s go do it! §fCraft a Luthier\u0027s Station.",
+      "advancements.rock_that_pick_advancement.descr": "Craft a Guitar Pick.",
+      "subtitles.piano_lower": "Piano sounds",
+      "key.musicmod.guitar_switch_chord_1": "Guitar - Switch Chord - Slot 1",
+      "subtitles.guitar_aminor_down": "Guitar A Minor chord",
+      "key.categories.music": "Music Controls",
+      "item.musicmod.guitar_body": "Guitar Body",
+      "advancements.snare_a_joke_with_you_advancement.title": "I\u0027ll Snare a Joke With You",
+      "key.musicmod.music_d_1": "Music - D 1",
+      "key.musicmod.music_d_2": "Piano - D 2",
+      "subtitles.guitar_cmajor7_down": "Guitar C Major 7 chord",
+      "key.musicmod.drums_z_key": "Drums - Bass Drum",
+      "subtitles.guitar_fsharpmajor7_up": "Guitar F# Major 7 chord"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "musicmod",
+    "modName": "The Sound of Music",
+    "version": "1.0.0",
+    "description": "Craft musical instruments! Play music! Gather your friends and start a band!",
+    "author": "KitsuneFox",
+    "websiteURL": "https://mcreator.net",
+    "license": "WTFPL",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "som_v23",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "https://www.curseforge.com/minecraft/mc-mods/the-sound-of-music",
+    "modElementsPackage": "kitsunefox.musicmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

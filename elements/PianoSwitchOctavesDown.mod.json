@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DOWN",
+    "keyBindingName": "Piano - Switch Octaves Down",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "PianoSwitchOctavesDownOnKeyPressed"
+    }
+  }
+}

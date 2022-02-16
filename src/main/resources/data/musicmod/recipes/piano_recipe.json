@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "musicmod:musical_strings"
+    },
+    "4": {
+      "item": "musicmod:musical_strings"
+    },
+    "5": {
+      "item": "musicmod:musical_strings"
+    },
+    "6": {
+      "item": "musicmod:musical_keys"
+    },
+    "7": {
+      "item": "musicmod:musical_keys"
+    },
+    "8": {
+      "item": "musicmod:musical_keys"
+    }
+  },
+  "result": {
+    "item": "musicmod:piano",
+    "count": 1
+  }
+}

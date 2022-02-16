@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "PERIOD",
+    "keyBindingName": "Drums - Tom-Tom",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "DrumsPerKeyPressed"
+    }
+  }
+}

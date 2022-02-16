@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SLASH",
+    "keyBindingName": "Piano - E 2",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "MusicE2KeyPressed"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:guitar_head"
+    },
+    "title": {
+      "translate": "advancements.heading_for_a_guitar.title"
+    },
+    "description": {
+      "translate": "advancements.heading_for_a_guitar.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heading_for_a_guitar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:guitar_head",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:do_you_want_to_be_a_luthier_advancement"
+}

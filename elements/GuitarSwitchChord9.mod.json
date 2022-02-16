@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "PERIOD",
+    "keyBindingName": "Guitar - Switch Chord - Slot 9",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarSwitchChord9OnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "guitar2.png",
+          "use1Xscale": false,
+          "name": "guitar2.png",
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Current chord: <VAR:guitarchord_name>",
+          "color": {
+            "value": -12698050,
+            "falpha": 0.0
+          },
+          "name": "Current chord: <VAR:guitarchord_name>",
+          "x": 25,
+          "y": 13
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Current chord: <VAR:guitarchord_name>",
+          "color": {
+            "value": -197380,
+            "falpha": 0.0
+          },
+          "name": "Current chord: <VAR:guitarchord_name>",
+          "x": 24,
+          "y": 12
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "GuitarChordOverlayDisplay"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

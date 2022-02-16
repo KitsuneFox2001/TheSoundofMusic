@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:guitar"
+    },
+    "title": {
+      "translate": "advancements.free_guitar_no_strings_attached.title"
+    },
+    "description": {
+      "translate": "advancements.free_guitar_no_strings_attached.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "free_guitar_no_strings_attached": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:guitar",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:hollow_and_empty"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DECIMAL",
+    "keyBindingName": "Drums - Ride Cymbal",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "DrumsDecKeyPressed"
+    }
+  }
+}

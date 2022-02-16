@@ -1,0 +1,57 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "piano.png",
+          "use1Xscale": false,
+          "name": "piano.png",
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Current octave: <VAR:integer:octave>",
+          "color": {
+            "value": -12698050,
+            "falpha": 0.0
+          },
+          "name": "Current octave: <VAR:integer:octave>",
+          "x": 25,
+          "y": 13
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Current octave: <VAR:integer:octave>",
+          "color": {
+            "value": -197380,
+            "falpha": 0.0
+          },
+          "name": "Current octave: <VAR:integer:octave>",
+          "x": 24,
+          "y": 12
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "PianoOctaveOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 1,
+      "sy": 1,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

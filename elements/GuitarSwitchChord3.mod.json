@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Guitar - Switch Chord - Slot 3",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarSwitchChord3OnKeyPressed"
+    }
+  }
+}

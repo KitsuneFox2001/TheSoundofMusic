@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Guitar - Switch Chord - Slot 2",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarSwitchChord2OnKeyPressed"
+    }
+  }
+}

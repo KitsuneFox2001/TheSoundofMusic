@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Drums - Bass Drum",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "DrumsZKeyPressed"
+    }
+  }
+}

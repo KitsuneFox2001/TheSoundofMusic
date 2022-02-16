@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "musicmod:blocks/woodtop2",
+    "up": "musicmod:blocks/woodtop",
+    "north": "musicmod:blocks/wood",
+    "east": "musicmod:blocks/wood",
+    "south": "musicmod:blocks/wood",
+    "west": "musicmod:blocks/wood",
+    "particle": "musicmod:blocks/woodtop2"
+  }
+}

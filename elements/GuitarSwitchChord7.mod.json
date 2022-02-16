@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Guitar - Switch Chord - Slot 7",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarSwitchChord7OnKeyPressed"
+    }
+  }
+}

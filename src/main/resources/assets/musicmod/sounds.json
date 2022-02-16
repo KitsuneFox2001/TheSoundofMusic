@@ -1,0 +1,1002 @@
+{
+  "guitar_fret1": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret1",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret1_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fret2": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret2",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret2_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fret3": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret3",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret3_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fret4": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret4",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret4_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fret5": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret5",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret5_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fret6": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fret6",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fret6_shorter",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:cmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:cmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:csharpmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:csharpmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:dmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:dmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_emajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_emajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:emajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_emajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_emajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:emajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:fmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:fmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:gmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:gmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gsharpmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gsharpmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_amajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_amajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:amajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_amajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_amajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:amajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:asharpmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:bmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bmajor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bmajor_up",
+    "sounds": [
+      {
+        "name": "musicmod:bmajor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:cminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:cminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:csharpminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:csharpminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:dminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:dminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_eminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_eminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:eminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_eminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_eminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:eminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:fminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:fminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:gminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:gminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gsharpminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gsharpminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_aminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_aminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:aminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_aminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_aminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:aminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpmajor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpmajor_down",
+    "sounds": [
+      {
+        "name": "musicmod:asharpmajor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:asharpminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:asharpminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bminor_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bminor_down",
+    "sounds": [
+      {
+        "name": "musicmod:bminor_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bminor_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bminor_up",
+    "sounds": [
+      {
+        "name": "musicmod:bminor_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:cmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_cmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_cmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:cmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:csharpmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_csharpmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_csharpmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:csharpmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:dmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:dmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_dsharpmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_dsharpmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:dsharpmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_emajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_emajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:emajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_emajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_emajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:emajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:fmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:fmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fsharpmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fsharpmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:fsharpmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:gmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:gmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_gsharpmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_gsharpmajor7_up": {
+    "category": "neutral",
+    "subtitle": "subtitles.guitar_gsharpmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:gsharpmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_amajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_amajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:amajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_amajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_amajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:amajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:asharpmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_asharpmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_asharpmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:asharpmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bmajor7_down": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bmajor7_down",
+    "sounds": [
+      {
+        "name": "musicmod:bmajor7_down",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_bmajor7_up": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_bmajor7_up",
+    "sounds": [
+      {
+        "name": "musicmod:bmajor7_up",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_fretnoise": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_fretnoise",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_fretnoise",
+        "stream": false
+      }
+    ]
+  },
+  "piano_lower": {
+    "category": "block",
+    "subtitle": "subtitles.piano_lower",
+    "sounds": [
+      {
+        "name": "musicmod:piano_lower",
+        "stream": false
+      }
+    ]
+  },
+  "piano_mid": {
+    "category": "block",
+    "subtitle": "subtitles.piano_mid",
+    "sounds": [
+      {
+        "name": "musicmod:piano_mid",
+        "stream": false
+      }
+    ]
+  },
+  "piano_higher": {
+    "category": "block",
+    "subtitle": "subtitles.piano_higher",
+    "sounds": [
+      {
+        "name": "musicmod:piano_higher",
+        "stream": false
+      }
+    ]
+  },
+  "piano_highest": {
+    "category": "block",
+    "subtitle": "subtitles.piano_highest",
+    "sounds": [
+      {
+        "name": "musicmod:piano_highest",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_lower": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_lower",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_lower",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_mid": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_mid",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_mid",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_higher": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_higher",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_higher",
+        "stream": false
+      }
+    ]
+  },
+  "guitar_highest": {
+    "category": "block",
+    "subtitle": "subtitles.guitar_highest",
+    "sounds": [
+      {
+        "name": "musicmod:guitar_highest",
+        "stream": false
+      }
+    ]
+  },
+  "bass_lower": {
+    "category": "block",
+    "subtitle": "subtitles.bass_lower",
+    "sounds": [
+      {
+        "name": "musicmod:bass_lower",
+        "stream": false
+      }
+    ]
+  },
+  "bass_mid": {
+    "category": "block",
+    "subtitle": "subtitles.bass_mid",
+    "sounds": [
+      {
+        "name": "musicmod:bass_mid",
+        "stream": false
+      }
+    ]
+  },
+  "bass_higher": {
+    "category": "block",
+    "subtitle": "subtitles.bass_higher",
+    "sounds": [
+      {
+        "name": "musicmod:bass_higher",
+        "stream": false
+      }
+    ]
+  },
+  "bass_highest": {
+    "category": "block",
+    "subtitle": "subtitles.bass_highest",
+    "sounds": [
+      {
+        "name": "musicmod:bass_highest",
+        "stream": false
+      }
+    ]
+  },
+  "bassdrum": {
+    "category": "block",
+    "subtitle": "subtitles.bassdrum",
+    "sounds": [
+      {
+        "name": "musicmod:bassdrum",
+        "stream": false
+      }
+    ]
+  },
+  "closedhihat": {
+    "category": "block",
+    "subtitle": "subtitles.closedhihat",
+    "sounds": [
+      {
+        "name": "musicmod:closedhihat",
+        "stream": false
+      }
+    ]
+  },
+  "floortom": {
+    "category": "block",
+    "subtitle": "subtitles.floortom",
+    "sounds": [
+      {
+        "name": "musicmod:floortom",
+        "stream": false
+      }
+    ]
+  },
+  "openhihat": {
+    "category": "block",
+    "subtitle": "subtitles.openhihat",
+    "sounds": [
+      {
+        "name": "musicmod:openhihat",
+        "stream": false
+      }
+    ]
+  },
+  "ride": {
+    "category": "block",
+    "subtitle": "subtitles.ride",
+    "sounds": [
+      {
+        "name": "musicmod:ride",
+        "stream": false
+      }
+    ]
+  },
+  "snare": {
+    "category": "block",
+    "subtitle": "subtitles.snare",
+    "sounds": [
+      {
+        "name": "musicmod:snare",
+        "stream": false
+      }
+    ]
+  },
+  "snarecrossstick": {
+    "category": "block",
+    "subtitle": "subtitles.snarecrossstick",
+    "sounds": [
+      {
+        "name": "musicmod:snarecrossstick",
+        "stream": false
+      }
+    ]
+  },
+  "tomtom": {
+    "category": "block",
+    "subtitle": "subtitles.tomtom",
+    "sounds": [
+      {
+        "name": "musicmod:tomtom",
+        "stream": false
+      }
+    ]
+  },
+  "hihat_kick": {
+    "category": "block",
+    "subtitle": "subtitles.hihat_kick",
+    "sounds": [
+      {
+        "name": "musicmod:hihat_kick",
+        "stream": false
+      }
+    ]
+  }
+}

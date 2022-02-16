@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:cymbal"
+    },
+    "title": {
+      "translate": "advancements.ba_dum_tssss_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.ba_dum_tssss_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ba_dum_tssss_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:cymbal",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:the_sound_of_music_achievement"
+}

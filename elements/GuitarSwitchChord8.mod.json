@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DECIMAL",
+    "keyBindingName": "Guitar - Switch Chord - Slot 8",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "GuitarSwitchChord8OnKeyPressed"
+    }
+  }
+}

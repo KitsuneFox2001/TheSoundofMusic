@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="WTFPL"
+
+[[mods]]
+modId="musicmod"
+version="1.0.0"
+displayName="The Sound of Music"
+credits="https://www.curseforge.com/minecraft/mc-mods/the-sound-of-music"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="KitsuneFox"
+description='''
+Craft musical instruments! Play music! Gather your friends and start a band!
+'''
+
+[[dependencies.musicmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,16 @@
+{
+  "parent": "musicmod:custom/luthiersstation2",
+  "textures": {
+    "all": "musicmod:blocks/woodtop2",
+    "particle": "musicmod:blocks/woodtop2",
+    "0": "musicmod:blocks/iron_block",
+    "1": "musicmod:blocks/stonecutter_top",
+    "2": "musicmod:blocks/stonecutter_side",
+    "3": "musicmod:blocks/stonecutter_bottom",
+    "4": "musicmod:blocks/saw",
+    "5": "musicmod:blocks/guitar_body",
+    "6": "musicmod:blocks/guitar_fretboard",
+    "7": "musicmod:blocks/guitar_head",
+    "missing": "musicmod:blocks/"
+  }
+}

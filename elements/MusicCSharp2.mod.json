@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "L",
+    "keyBindingName": "Piano - C# 2",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "MusicCSharp2KeyPressed"
+    }
+  }
+}

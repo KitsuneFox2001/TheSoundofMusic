@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "musicmod:block/luthier_station"
+    }
+  }
+}

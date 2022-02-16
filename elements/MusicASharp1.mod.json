@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Music - A# 1",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "MusicASharp1KeyPressed"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "music_book",
+    "customModelName": "Normal",
+    "name": "A Guide to The Sound of Music",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Music"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A book by KitsuneFox"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "ModGuideBook12",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "onRightClickedInAir": {
+      "name": "ModGuideBookPlaySound"
+    },
+    "onRightClickedOnBlock": {
+      "name": "ModGuideBookPlaySound"
+    },
+    "hasDispenseBehavior": false
+  }
+}

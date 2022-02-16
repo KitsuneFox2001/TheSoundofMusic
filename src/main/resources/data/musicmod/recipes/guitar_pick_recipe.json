@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz"
+    },
+    "1": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "musicmod:guitar_pick",
+    "count": 1
+  }
+}

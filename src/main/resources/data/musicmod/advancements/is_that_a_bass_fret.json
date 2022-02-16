@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "musicmod:bass_neck"
+    },
+    "title": {
+      "translate": "advancements.is_that_a_bass_fret.title"
+    },
+    "description": {
+      "translate": "advancements.is_that_a_bass_fret.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "is_that_a_bass_fret": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "musicmod:bass_neck",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "musicmod:totally_not_a_worse_guitar"
+}

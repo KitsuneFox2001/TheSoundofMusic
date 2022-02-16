@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPADCOMMA",
+    "keyBindingName": "Piano - D# 2",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "MusicDSharp2KeyPressed"
+    }
+  }
+}

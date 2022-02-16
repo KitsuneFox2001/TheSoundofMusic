@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "B",
+    "keyBindingName": "Music - G 1",
+    "keyBindingCategoryKey": "music",
+    "onKeyPressed": {
+      "name": "MusicGOnKeyPressed"
+    }
+  }
+}

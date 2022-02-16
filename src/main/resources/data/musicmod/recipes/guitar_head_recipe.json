@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "1": {
+      "item": "musicmod:musical_strings"
+    },
+    "2": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "3": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "6": {
+      "item": "musicmod:guitar_tuner"
+    },
+    "7": {
+      "item": "musicmod:musical_strings"
+    },
+    "8": {
+      "item": "musicmod:guitar_tuner"
+    }
+  },
+  "result": {
+    "item": "musicmod:guitar_head",
+    "count": 1
+  }
+}
